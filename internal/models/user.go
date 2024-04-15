@@ -10,11 +10,6 @@ type User struct {
 	IsAdmin           bool      `json:"isadmin"`
 }
 
-/*
-	type UserID struct {
-		ID uuid.UUID `json:"id"`
-	}
-*/
 func NewUUID() uuid.UUID {
 	return uuid.New()
 }
