@@ -26,4 +26,3 @@ make cyclomatic
 make clean
 ```
 
-
