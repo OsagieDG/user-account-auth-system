@@ -7,6 +7,9 @@ run: build-api
 lint:
 	@golangci-lint run ./...
 
+test: 
+	@go test -v ./...
+
 cyclomatic:
 	@gocyclo -over 7 . 
 
