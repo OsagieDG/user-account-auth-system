@@ -9,3 +9,4 @@ CREATE TABLE IF NOT EXISTS auth.users (
     isadmin BOOLEAN NOT NULL DEFAULT false,
     UNIQUE (username, email)
 );
+
