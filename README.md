@@ -21,6 +21,7 @@ User Account CRUD including login and logout functions as well as session valida
 make build-api
 make run
 make lint
+make test
 make cyclomatic 
 make clean
 ```
