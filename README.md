@@ -1,22 +1,11 @@
 # user-account-auth-system
-User Account CRUD including login and logout functions as well as session validation.
+User account CRUD operations, including login, logout, and session validation functions.
 
-- To build target: 
--      go build -o bin/api ./cmd/api/
 
--  To run target:
--      go run ./cmd/api 
+![logs](https://github.com/osag1e/user-account-auth-system/blob/main/logs.png)
 
-- To lint code
--      golangci-lint run ./... 
 
-- To check code complexity
--      gocyclo -over 7 . 
-
-- To delete build:
--      rm -rf bin 
-
-## Makefile commands for this are:
+## Makefile commands are: 
 ```
 make build-api
 make run
@@ -26,3 +15,13 @@ make cyclomatic
 make clean
 ```
 
+## Project environment variables
+```
+HTTP_LISTEN_ADDRESS=
+DB_HOST=
+DB_PORT=
+DB_USER=
+DB_PASSWORD=
+DB_NAME=
+DB_SSLMODE=
+```
