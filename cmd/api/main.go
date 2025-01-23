@@ -7,9 +7,9 @@ import (
 
 	"github.com/joho/godotenv"
 	_ "github.com/lib/pq"
-	"github.com/osag1e/user-account-auth-system/db/migrations"
-	"github.com/osag1e/user-account-auth-system/db/postgres"
-	"github.com/osag1e/user-account-auth-system/service/middleware"
+	"github.com/osag1e/logstack/service/middleware"
+	"github.com/osag1e/user-account-auth-system/internal/db/migrations"
+	"github.com/osag1e/user-account-auth-system/internal/db/postgres"
 )
 
 func main() {

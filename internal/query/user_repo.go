@@ -72,7 +72,6 @@ func (ur *UserPostgresRepository) GetUserByEmail(email string) (*models.User, er
 
 	var user models.User
 	err := row.Scan(&user.ID, &user.UserName, &user.Email, &user.EncryptedPassword, &user.IsAdmin)
-
 	if err != nil {
 		if err == sql.ErrNoRows {
 			return nil, errors.New("user not found")

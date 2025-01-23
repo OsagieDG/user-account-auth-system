@@ -43,5 +43,4 @@ func TestHandleCreateUser(t *testing.T) {
 	if err != nil {
 		t.Fatalf("Failed to decode response body: %v", err)
 	}
-
 }

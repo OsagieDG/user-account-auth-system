@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/osag1e/user-account-auth-system/db/health"
+	"github.com/osag1e/user-account-auth-system/internal/db/health"
 	"github.com/osag1e/user-account-auth-system/internal/query"
 	"github.com/osag1e/user-account-auth-system/service/handlers"
 )
