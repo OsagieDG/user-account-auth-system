@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"os"
 
+	_ "github.com/jackc/pgx/v5/stdlib"
 	"github.com/joho/godotenv"
-	_ "github.com/lib/pq"
 	"github.com/osag1e/logstack/service/middleware"
 	"github.com/osag1e/user-account-auth-system/internal/db/migrations"
 	"github.com/osag1e/user-account-auth-system/internal/db/postgres"

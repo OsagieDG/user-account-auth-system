@@ -20,7 +20,7 @@ func NewConnection(config *Config) (*sql.DB, error) {
 		config.Host, config.Port, config.Password, config.User,
 		config.DBName, config.SSLMode,
 	)
-	db, err := sql.Open("postgres", dsn)
+	db, err := sql.Open("pgx", dsn)
 	if err != nil {
 		return db, err
 	}

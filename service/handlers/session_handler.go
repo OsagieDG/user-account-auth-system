@@ -16,7 +16,6 @@ import (
 // ContextKey is a type used for keys in context to avoid collisions.
 type ContextKey string
 
-// ContextKeyUserID is the context key for User ID.
 const ContextKeyUserID ContextKey = "userID"
 
 type SessionHandler struct {
@@ -118,7 +117,6 @@ func (s *SessionHandler) Logout(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// Expire the session cookie by setting the expiration time in the past
 	http.SetCookie(w, &http.Cookie{
 		Name:     "session_token",
 		Value:    "",
@@ -156,7 +154,6 @@ func (s *SessionHandler) ValidateSession(next http.Handler) http.Handler {
 				return
 			}
 
-			// Expire the session cookie by setting the expiration time in the past
 			http.SetCookie(w, &http.Cookie{
 				Name:     "session_token",
 				Value:    "",
