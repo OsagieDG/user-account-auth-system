@@ -6,10 +6,10 @@ import (
 	"errors"
 	"net/http"
 
+	"github.com/OsagieDG/user-account-auth-system/internal/models"
+	"github.com/OsagieDG/user-account-auth-system/internal/query"
 	"github.com/go-chi/chi/v5"
 	"github.com/google/uuid"
-	"github.com/osag1e/user-account-auth-system/internal/models"
-	"github.com/osag1e/user-account-auth-system/internal/query"
 )
 
 type UserHandler struct {
@@ -126,5 +126,4 @@ func (h *UserHandler) HandleFetchUsers(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	writeJSONResponse(w, http.StatusOK, map[string]interface{}{"data": users})
-
 }

@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/osag1e/user-account-auth-system/internal/models"
+	"github.com/OsagieDG/user-account-auth-system/internal/models"
 )
 
 type SesionRepository interface {

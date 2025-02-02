@@ -1,8 +1,8 @@
 package handlers
 
 import (
+	"github.com/OsagieDG/user-account-auth-system/internal/models"
 	"github.com/google/uuid"
-	"github.com/osag1e/user-account-auth-system/internal/models"
 )
 
 type MockUserRepository struct{}

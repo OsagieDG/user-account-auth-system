@@ -1,4 +1,4 @@
-module github.com/osag1e/user-account-auth-system
+module github.com/OsagieDG/user-account-auth-system
 
 go 1.22
 
@@ -7,7 +7,7 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/jackc/pgx/v5 v5.7.2
 	github.com/joho/godotenv v1.5.1
-	github.com/osag1e/logstack v1.0.2
+	github.com/OsagieDG/mlog v1.0.0
 	golang.org/x/crypto v0.31.0
 )
 

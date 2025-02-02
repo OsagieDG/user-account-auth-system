@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/osag1e/user-account-auth-system/internal/models"
+	"github.com/OsagieDG/user-account-auth-system/internal/models"
 )
 
 func TestHandleCreateUser(t *testing.T) {

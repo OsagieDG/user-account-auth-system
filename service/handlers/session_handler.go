@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/OsagieDG/user-account-auth-system/internal/models"
+	"github.com/OsagieDG/user-account-auth-system/internal/query"
 	"github.com/google/uuid"
-	"github.com/osag1e/user-account-auth-system/internal/models"
-	"github.com/osag1e/user-account-auth-system/internal/query"
 )
 
 // ContextKey is a type used for keys in context to avoid collisions.
