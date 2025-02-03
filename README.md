@@ -1,6 +1,9 @@
 # user-account-auth-system
 User Account CRUD with a session-based auth system
 
+- Find the jwt-based version here: [jwt-based-auth-system](https://github.com/OsagieDG/jwt-based-auth-system)
+
+
 ![logs](https://github.com/osag1e/user-account-auth-system/blob/main/logs.png)
 
 
