@@ -4,9 +4,6 @@ User Account CRUD with a session-based auth system
 - Find the jwt-based version here: [jwt-based-auth-system](https://github.com/OsagieDG/jwt-based-auth-system)
 
 
-![logs](https://github.com/osag1e/user-account-auth-system/blob/main/logs.png)
-
-
 ## Makefile commands are:
 ```
 make build-api
@@ -30,4 +27,3 @@ DB_SSLMODE=
 ```
 
 
-![th](https://github.com/osag1e/user-account-auth-system/blob/main/testhandlers.png)

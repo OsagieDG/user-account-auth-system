@@ -125,7 +125,7 @@ func (s *SessionHandler) Logout(w http.ResponseWriter, r *http.Request) {
 		SameSite: http.SameSiteStrictMode,
 	})
 
-	writeJSONResponse(w, http.StatusCreated, map[string]string{"message": "Logged out successfully"})
+	writeJSONResponse(w, http.StatusOK, map[string]string{"message": "Logged out successfully"})
 }
 
 // ValidateSession middleware to check if the user's session is valid
